@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.collaboration{
+    width: 100%;
+    box-sizing: border-box;
+}
+.collaboration__content{
+    padding: 10% 5%;
+    box-sizing: border-box;
+}
+.button{
+    background-color: dodgerblue;
+    border-radius: 6rem;
+    color: white;
+    display: inline-block;
+    padding: 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    width: 6rem;
+}
+.collaboration__demo{
+    width: 100%;
+    overflow:hidden;
+}
+.collaboration__demo img{
+    position: relative;
+    left: 15%;
+}
+/*layout tablet*/
+@media(min-width: 768px){
+}
