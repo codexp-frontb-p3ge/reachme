@@ -39,6 +39,13 @@ html,body{
 .engagement__content__list li:nth-child(9){
     background: #DA0000;
 }
+.engagement__content__list li:nth-child(10){
+    display: none;
+}
+.engagement__content__list li:nth-child(11){
+    background: rgb(81, 120, 182);
+    display: none; 
+}
 .engagement__content__list a{
     color: white;
     font-size: 0.8rem;
@@ -83,6 +90,16 @@ html,body{
 @media(min-width: 992px) {
     .engagement__content{
         width: 30%;
+    }
+    .engagement__content__list li:nth-child(10){
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .engagement__content__list li:nth-child(11){
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
     .engagement__demo img{  
         position: static;
