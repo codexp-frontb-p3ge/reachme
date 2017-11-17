@@ -1,0 +1,65 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.app-directory{
+    background: #F0F5F9;
+}
+.app-directory__content{
+    box-sizing: border-box;
+    padding: 10% 5%;/
+}
+.button{
+    background-color: dodgerblue;
+    border-radius: 6rem;
+    color: white;
+    display: inline-block;
+    padding: 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    width: 6rem;
+}
+.app-directory__demo{
+    box-sizing: border-box;
+    padding: 0 5%;
+}
+.app-directory__demo img{
+    width: 100%;
+}
+/*layout tablet*/
+@media(min-width: 768px){
+    .app-directory{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .app-directory__content{
+        padding-top: 15%;
+        width: 50%;
+    }
+    .app-directory__demo{
+        padding: 10% 0 0 0;
+        width: 50%;
+    }
+    .app-directory__demo img{
+        left: -50%;
+        position: relative;
+        width: 150%;
+    }
+}
+@media(min-width: 992px) {
+    .app-directory__content{
+        padding: 15% 0 0 0;
+        width: 30%;
+    }
+    .app-directory__demo{
+        align-items: flex-end;
+        display: flex;
+        justify-content: center;
+    }
+    .app-directory__demo img{
+        height: 100%;
+        left: 0;
+        width: 80%;
+    }
+}
