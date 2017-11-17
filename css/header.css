@@ -1,5 +1,7 @@
+/*header-layout-mobile - Poliana */
 body {
     margin: -4px;
+    font-family: 'Barlow', sans-serif;
 }
 .menu-navbar, .login, .start {
     display: none;
@@ -9,6 +11,10 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #E7E7E7;
+    height: 20%;
+}
+.logo {
+    padding: 2%;
 }
 .menu-hamburger {
     display: inline-block;
@@ -19,6 +25,57 @@ body {
     background: #A5A9AF;
     width: 20px;
     height: 2px;
-    margin: 5%;
+    margin: 7%;
 }
+.botoes {
+   display: flex;
+   justify-content: flex-end;
+   width: 30%;
+   align-items: center;
+   padding: 5%;
+}
+/*header-layout-tablet - Poliana */
+@media(min-width: 768px){
+    .botoes {
+        justify-content: space-between;
+    }
+    .login {
+        display: inline-block;
+        color: #747D86;
+        background-color: white;
+        border: 2px solid #E7E7E7;
+        border-radius: 10px;
+        font-size: 0.7rem;
+    }
+    .start {
+        display: inline-block;
+        color: #006BF0;
+        background-color: white;
+        border: 2px solid #E7E7E7;
+        border-radius: 10px;
+        font-size: 0.7rem;
+    }
+}
+/*header-layout-desktop - Poliana */
+@media(min-width: 992px){
+    .menu-hamburger {
+        display: none;
+    }
+    .botoes {
+        justify-content: flex-end;
+    }
+    .menu-navbar {
+        display: inline-block;
+        width: 50%;
+        text-align: right;
+    }
+    .menu-navbar li {
+        display: inline;
+        text-transform: uppercase;
+        margin: 1%;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+}
+
 
