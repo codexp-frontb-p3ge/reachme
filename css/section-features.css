@@ -1,0 +1,3 @@
+.features__img-left:nth-of-type(2), .features__img-center:nth-of-type(2), .features__img-right:nth-of-type(2) {
+    display: none;
+}
