@@ -21,8 +21,8 @@ html, body{
     width: 6rem;
 }
 .collaboration__demo{
+    overflow: hidden;
     width: 100%;
-    overflow:hidden;
 }
 .collaboration__demo img{
     position: relative;
@@ -30,4 +30,17 @@ html, body{
 }
 /*layout tablet*/
 @media(min-width: 768px){
+    .collaboration{
+        display: flex;
+    }
+    .collaboration__content{
+        width: 50%;
+        padding: 0 5%;
+    }
+    .collaboration__demo{
+        width: 50%;
+    }
+    .collaboration__demo img{
+        left: 25%;
+    }
 }
