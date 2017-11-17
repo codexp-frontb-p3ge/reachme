@@ -1,0 +1,24 @@
+body {
+    margin: -4px;
+}
+.menu-navbar, .login, .start {
+    display: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E7E7E7;
+}
+.menu-hamburger {
+    display: inline-block;
+    width: 15%;
+}
+.menu-hamburger span {
+    display: block;
+    background: #A5A9AF;
+    width: 20px;
+    height: 2px;
+    margin: 5%;
+}
+
