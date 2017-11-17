@@ -44,3 +44,9 @@ html, body{
         left: 25%;
     }
 }
+/*layout desktop*/
+@media(min-width: 992px) {
+    .collaboration__demo img{
+        left: 0;
+    }
+}
