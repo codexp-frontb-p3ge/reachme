@@ -1,0 +1,19 @@
+.button{
+    border-radius: 25px;
+    text-decoration: none;
+}
+.button--primary{
+    background-color: #018bf6;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
+.button--secondary{
+    background-color: #364049;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
+.button--outline{
+    border: 1px solid #aeb2b8;
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+}
