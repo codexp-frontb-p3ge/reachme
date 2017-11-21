@@ -1,5 +1,5 @@
 .features__group{
-    background-image: url(../../img/background-r.png);
+    background-image: url("../img/background-r.png");
     background-position-x: center;
 }
 .features__group__brand, .features__group__brand div, .features__group__analytics, .features__group__analytics div{
@@ -48,6 +48,7 @@
         left: -30%;
         position: absolute;
         width: 80%;
+    }
 }
 /*layout desktop*/
 @media(min-width: 992px){
@@ -66,4 +67,5 @@
         left: 0;
         position: static;
         width: 50%;
+    }
 }

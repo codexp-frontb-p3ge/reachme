@@ -153,6 +153,9 @@ main p{
     display: flex;
     flex-flow: column nowrap;
 }
+.features__group p{
+    color: #a4a6a8;
+}
 .features__group__brand img{
     align-self: flex-end;
 }
@@ -312,13 +315,12 @@ main p{
     }
     .features__group__analytics div{
         padding-top: 10%;
-        padding-right: 20%;
-        width: 30%;
+        width: 50%;
     }
     .features__group__analytics img{
-        left: 0;
+        left: -30%;
         position: absolute;
-        width: 50%;
+        width: 80%;
     }
     .enterprise{
         flex-flow: row nowrap;
