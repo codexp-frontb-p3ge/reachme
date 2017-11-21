@@ -69,9 +69,7 @@ main p{
     width: 90%;
     padding-top: 10%;
 }
-.hero-img-left-tab, .hero-img-center-tab, 
-.hero-img-right-tab, .hero-img-left-desk, 
-.hero-img-center-desk, .hero-img-right-desk {
+.hero-desk, .hero-tab {
     display: none;
 }
 .feature--lighter-gray{
@@ -249,18 +247,13 @@ main p{
         padding: 0.5rem 1rem;
         background-color: #ffffff;
     }
-    .button--outline2 {
-        border: 1px solid #aeb2b8;
-        padding: 0.5rem 1rem;
-        background-color: #ffffff;
-        color: #0074F4;
+    .get--started {
+    color: #018bf6;
     }
-    .hero-img-left-tab, 
-    .hero-img-center-tab, 
-    .hero-img-right-tab {
-    display: inline;
+    .login {
+        color: #919A9F;
     }
-    .hero-img-center-mob {
+    .hero-mob {
         display: none;
     }
     .hero-img-center-tab {
@@ -268,7 +261,7 @@ main p{
     }
     .hero-img-left-tab, 
     .hero-img-right-tab {
-        width: 15%;
+        width: 20%;
     }
     .hero-tab {
         display: flex;
