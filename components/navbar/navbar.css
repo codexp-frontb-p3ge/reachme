@@ -1,22 +1,95 @@
-
-.navbar-pages {
+body {
+    margin: -4px;
+    font-family: 'Barlow', sans-serif;
+}
+.navbar {
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    align-items: center;
+    border-bottom: 1px solid #E7E7E7;
+    height: 10%;
 }
-.navbar-pages li {
-    display: inline;
-    text-transform: uppercase;
-    font-size: 1rem;
-    color: #919A9F;
-    padding: 10% 0 10% 0;
+.navbar-pages {
+    display: none;
 }
-.navbar-pages li:nth-child(2n):hover {
-    padding-top: 9.5%;
-    border-top: 2px solid black;
+.logo {
+    padding: 2%;
 }
-.navbar-pages li:nth-child(2n+1):hover {
-    padding-bottom: 5%;
-    border-bottom: 2px solid #0B57E8;
+.navbar-items {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-items: left;
 }
- 
+.button {
+    display: none;
+}
+.menu-hamburguer {
+    display: inline-block;
+    width: 15%;
+    margin: 2%;
+}
+.menu-hamburguer span {
+    display: block;
+    background: #A5A9AF;
+    width: 20px;
+    height: 2px;
+    margin: 7%;
+}
+@media(min-width: 768px) {
+    .navbar-pages {
+        display: none;
+    }
+    .button{
+        display: inline;
+        border-radius: 25px;
+        text-decoration: none;
+        margin: 1%;
+    }    
+    .button--outline{
+        border: 1px solid #aeb2b8;
+        padding: 0.5rem 1rem;
+        background-color: #ffffff;
+    }
+    .button--outline2 {
+        border: 1px solid #aeb2b8;
+        padding: 0.5rem 1rem;
+        background-color: #ffffff;
+        color: #0074F4;
+    }
+}
+@media(min-width: 992px) {
+    .navbar {
+        justify-content: space-between;
+    }
+    .navbar-pages {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        padding: 0 3% 0 3%;
+    }
+    .navbar-pages li {
+        display: inline;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: #919A9F;
+        padding: 5% 0 5% 0;
+        margin: 0 3% 0 3%;
+    }
+    .navbar-pages li:nth-child(2n):hover {
+        padding-top: 5%;
+        border-top: 2px solid black;
+    }
+    .navbar-pages li:nth-child(2n+1):hover {
+        padding-bottom: 5%;
+        border-bottom: 2px solid #0B57E8;
+    }
+    .navbar-items {
+        padding-right: 4%;
+        width: 30%;
+    }
+    .menu-hamburguer {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+
+.navbar-pages {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.navbar-pages li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #919A9F;
+    padding: 10% 0 10% 0;
+}
+.navbar-pages li:nth-child(2n):hover {
+    padding-top: 9.5%;
+    border-top: 2px solid black;
+}
+.navbar-pages li:nth-child(2n+1):hover {
+    padding-bottom: 5%;
+    border-bottom: 2px solid #0B57E8;
+}
+ 
