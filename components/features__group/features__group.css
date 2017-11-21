@@ -1,4 +1,8 @@
-.features__group__brand, .features__group__analytics{
+.features__group{
+    background-image: url(../../img/background-r.png);
+    background-position-x: center;
+}
+.features__group__brand, .features__group__brand div, .features__group__analytics, .features__group__analytics div{
     align-items: flex-start;
     display: flex;
     flex-flow: column nowrap;
@@ -6,6 +10,60 @@
 .features__group p{
     color: #a4a6a8;
 }
-.features__group__analytics img{
+.features__group__brand img{
+    align-self: flex-end;
+}
+.features__group__analytics{
     overflow: hidden;
+}
+.features__group__analytics img{
+    left: -37%;
+    position: relative;
+    width: 90%;
+}
+/*layout tablet*/
+@media(min-width: 768px){
+    .features__group__brand{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .features__group__brand div{
+        padding-top: 10%;
+        width: 50%;
+    }
+    .features__group__brand img{
+        align-self: flex-start;
+        padding-left: 30%;
+        padding-top: 5%;
+    }
+    .features__group__analytics{
+        display: flex;
+        flex-flow: row-reverse 
+    }
+    .features__group__analytics div{
+        padding-top: 10%;
+        width: 50%;
+    }
+    .features__group__analytics img{
+        left: -30%;
+        position: absolute;
+        width: 80%;
+}
+/*layout desktop*/
+@media(min-width: 992px){
+    .features__group__brand{
+        padding: 0 10%;
+    }
+    .features__group__brand div{
+        padding-left: 16%;
+        width: 25%;
+    }
+    .features__group__analytics div{
+        padding-right: 25%;
+        width: 25%;
+    }
+    .features__group__analytics img{
+        left: 0;
+        position: static;
+        width: 50%;
 }
