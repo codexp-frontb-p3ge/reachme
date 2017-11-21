@@ -47,7 +47,7 @@
     text-align: center;
     width: 20px;
 }
-
+/*layout tablet*/
 @media(min-width: 768px){
     .enterprise{
         flex-flow: row nowrap;
@@ -58,6 +58,7 @@
         width: 20%;
     }
     .enterprise__menu{
+        padding-right: 3%;
         width: 70%;
     }
     .enterprise__menu ul{
@@ -76,6 +77,6 @@
 /*layout desktop*/
 @media(min-width: 992px){
     .enterprise{
-        
+        padding: 0 10%;
     }
 }
