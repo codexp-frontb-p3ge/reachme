@@ -378,6 +378,66 @@ body {
     .menu-hamburguer {
         display: none;
     }
+}
+.hero {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+}
+.hero-tittle {
+    font-size: 2rem;
+}
+.hero-text {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 70%;
+    }
+.button{
+    border-radius: 25px;
+    text-decoration: none;
+}
+.button--primary{
+    background-color: #018bf6;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
+.hero-img-center-mob {
+    width: 90%;
+    padding-top: 10%;
+}
+.hero-img-left-tab, .hero-img-center-tab, 
+.hero-img-right-tab, .hero-img-left-desk, 
+.hero-img-center-desk, .hero-img-right-desk {
+    display: none;
+}
+/* tablet */
+@media (min-width: 768px) {
+    .hero-img-left-tab, 
+    .hero-img-center-tab, 
+    .hero-img-right-tab {
+    display: inline;
+    }
+    .hero-img-center-mob {
+        display: none;
+    }
+    .hero-img-center-tab {
+        width: 50%;
+    }
+    .hero-img-left-tab, 
+    .hero-img-right-tab {
+        width: 18%;
+    }
+    .hero-tab {
+        display: flex;
+        padding-top: 10%;
+    }
+}
+/* desktop */
+@media (min-width: 768px) {
+
     .hero-desk {
         display: flex;
         justify-content: center;
