@@ -173,7 +173,6 @@ main p{
 }
 .get-started h2, .get-started p{
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
     margin: 0 0 1rem 0;
     text-align: center;
 }
@@ -200,14 +199,12 @@ main p{
 }
 .enterprise__logo--link{
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
 }
 .enterprise__logo--power{
     color: #a4a6a8;
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     font-size: 0.7rem;
 }
@@ -218,7 +215,6 @@ main p{
 }
 .enterprise__menu li{
     color: #caced1;
-    font-family: 'Roboto', sans-serif;
     font-size: 0.7rem;
     list-style-type: none;
     margin: 1rem 0 0 0;
