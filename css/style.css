@@ -138,6 +138,100 @@ body {
     display: flex;
     justify-content: center;
 }
+.features__group{
+    background-image: url(./img/background-r.png);
+    background-position-x: center;
+}
+.features__group__brand, .features__group__brand div, .features__group__analytics, .features__group__analytics div{
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.features__group p{
+    color: #a4a6a8;
+}
+.features__group__brand img{
+    align-self: flex-end;
+}
+.features__group__analytics{
+    overflow: hidden;
+}
+.features__group__analytics img{
+    left: -37%;
+    position: relative;
+    width: 90%;
+}
+.get-started{
+    align-items: center;
+    background-color: #018bf6;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 6rem 0;
+}
+.get-started h2, p{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+.get-started a{
+    border-radius: 25px;
+    text-decoration: none;
+}
+.button--secondary{
+    background-color: #364049;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
+.enterprise{
+    align-items: center;
+    background-color: #364049;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.enterprise__logo{
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 3rem 0 0 0;
+}
+.enterprise__logo--link{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.enterprise__logo--power{
+    color: #a4a6a8;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 0.7rem;
+}
+.enterprise__menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.enterprise__menu li{
+    color: #caced1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    list-style-type: none;
+    margin: 1rem 0 0 0;
+}
+.enterprise__social{
+    padding: 3rem;
+}
+.footer--facebook, .footer--twitter{
+    background-color: #a4a6a8;
+    box-sizing: border-box;
+    color: #364049;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+    width: 20px;
+}
 @media(min-width: 768px) {
     .navbar-pages {
         display: none;
@@ -199,6 +293,56 @@ body {
     }
     .feature__demo{
         width: 50%;
+    }
+    .features__group__brand{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .features__group__brand div{
+        padding-top: 10%;
+        width: 50%;
+    }
+    .features__group__brand img{
+        align-self: flex-start;
+        padding-left: 30%;
+        padding-top: 5%;
+    }
+    .features__group__analytics{
+        display: flex;
+        flex-flow: row-reverse 
+    }
+    .features__group__analytics div{
+        padding-top: 10%;
+        width: 50%;
+    }
+    .features__group__analytics img{
+        left: -30%;
+        position: absolute;
+        width: 80%;
+    }
+    .enterprise{
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    .enterprise__logo{
+        margin: 0;
+        width: 20%;
+    }
+    .enterprise__menu{
+        padding-right: 3%;
+        width: 70%;
+    }
+    .enterprise__menu ul{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+    .enterprise__menu li{
+        margin: 0.7rem;
+    }
+    .enterprise__social{
+        padding: 3rem 0;
+        width: 10%;
     }
 }
 @media(min-width: 992px) {
@@ -331,5 +475,24 @@ body {
         background: rgb(81, 120, 182);
         display: flex;
         justify-content: center;
+    }
+    .features__group__brand{
+        padding: 0 10%;
+    }
+    .features__group__brand div{
+        padding-left: 16%;
+        width: 25%;
+    }
+    .features__group__analytics div{
+        padding-right: 25%;
+        width: 25%;
+    }
+    .features__group__analytics img{
+        left: 0;
+        position: static;
+        width: 50%;
+    }
+    .enterprise{
+        padding: 0 10%;
     }
 }
