@@ -1,0 +1,22 @@
+.get-started{
+    align-items: center;
+    background-color: #018bf6;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 6rem 0;
+}
+.get-started h2, p{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+.button{
+    border-radius: 25px;
+    text-decoration: none;
+}
+.button--secondary{
+    background-color: #364049;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
