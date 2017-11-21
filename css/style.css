@@ -138,11 +138,11 @@ body {
         display: none;
     }
     .hero-img-center-tab {
-        width: 60%;
+        width: 50%;
     }
     .hero-img-left-tab, 
     .hero-img-right-tab {
-        width: 15%;
+        width: 18%;
     }
     .hero-tab {
         display: flex;
