@@ -1,0 +1,11 @@
+.features__group__brand, .features__group__analytics{
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.features__group p{
+    color: #a4a6a8;
+}
+.features__group__analytics img{
+    overflow: hidden;
+}
