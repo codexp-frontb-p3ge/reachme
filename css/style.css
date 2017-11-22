@@ -394,12 +394,12 @@ main p{
         padding: 0 10%;
     }
     .features__group__brand div{
-        padding-left: 16%;
-        width: 25%;
+        padding-left: 17%;
+        width: 32%;
     }
     .features__group__analytics div{
-        padding-right: 25%;
-        width: 25%;
+        padding-right: 20%;
+        width: 30%;
     }
     .features__group__analytics img{
         left: 0;
